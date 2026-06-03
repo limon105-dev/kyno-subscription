@@ -1,0 +1,46 @@
+:root {
+    /* colors..... */
+    --black: #000000;
+    --white: #ffffff;
+    --text-meuted: rgba(60, 43, 77, 0.302);
+    --text-meuted2: rgba(60, 43, 77, 0.1);
+    --item-bg: #6e1ac2;
+    --brand-color: #3C2B4D;
+}
+
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common css end */

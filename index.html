@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Product Plan</title>
+		<!-- link css start -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet">
+		<link rel="stylesheet" href="./assets/css/main.css">
+		<link rel="stylesheet" href="./assets/css/product-plan.css">
+		<!-- link css end -->
+	</head>
+
+	<body>
+		<div class="section">
+			<div class="choose-single-product-purchase-wrapper">
+				<h3 class="choose-single-product-purchase-heading">קנו יותר וחסכו
+				</h3>
+				<div action="" class="choose-single-product-purchase-types-form">
+					<div class="choose-single-product-purchase-types">
+						<div class="choose-single-product-purchase-type">
+							<input class="" type="radio" name="purchase-type" value="1" id="pack1" checked>
+							<label class="choose-single-product-purchase-type-label" for="pack1">
+								<div class="purchase-type-badge">
+									<p class="purchase-type-badge-text">הכי משתלם</p>
+								</div>
+								<h5 class="purchase-pack-ammunt">קנו 3, קבלו 2 בחינם</h5>
+								<p class="purchase-pack-price">77₪ למארז</p>
+								<div class="choose-single-product-purchase-img">
+									<img src="./assets/images/product1.png" alt="product1.png">
+								</div>
+								<p class="purchase-pack-price-main">417.00 ₪</p>
+								<div class="purchase-type-badge2">
+									<p class="purchase-type-badge-text">חסכו 48%</p>
+								</div>
+							</label>
+						</div>
+						<div class="choose-single-product-purchase-type">
+							<input class="" type="radio" name="purchase-type" value="2" id="pack2">
+							<label class="choose-single-product-purchase-type-label" for="pack2">
+							<div class="purchase-type-badge">
+									<p class="purchase-type-badge-text">הכי פופולרי</p>
+								</div>
+								<h5 class="purchase-pack-ammunt">קנו 2, קבלו 1 בחינם</h5>
+								<p class="purchase-pack-price">86₪ למארז</p>
+								<div class="choose-single-product-purchase-img">
+									<img src="./assets/images/product1.png" alt="product1.png">
+								</div>
+								<p class="purchase-pack-price-main">278.00 ₪</p>
+								<div class="purchase-type-badge2">
+									<p class="purchase-type-badge-text">חסכו 42%</p>
+								</div>
+							</label>
+						</div>
+						<div class="choose-single-product-purchase-type">
+							<input class="" type="radio" name="purchase-type" value="3" id="pack3">
+							<label class="choose-single-product-purchase-type-label" for="pack3">
+								<h5 class="purchase-pack-ammunt">חבילה אחת</h5>
+								<p class="purchase-pack-price">46₪ למארז</p>
+								<div class="choose-single-product-purchase-img">
+									<img src="./assets/images/product1.png" alt="product1.png">
+								</div>
+								<p class="purchase-pack-price-main">139.00 ₪</p>
+							</label>
+						</div>
+					</div>
+			</div>
+			<div class="product-plan-section">
+				<div class="plan-container">
+					<div class="plan-wrapper">
+						<div class="plan-item plan-item-purchase">
+							<input type="radio" name="plan" value="0" id="one_time_purchase">
+							<label class="plan-label" for="one_time_purchase">
+								<div class="one-time-purchase-area">
+									<p class="subscription-fee">₪139.00</p>
+									<div class="select-plan-btn">
+										<div class="select-plan-label" for="one-time-purchase">רכישה חד פעמית</div>
+									</div>
+								</div>
+							</label>
+						</div>
+						<div class="plan-item plan-item-subscription">
+							<input type="radio" name="plan" checked value="1" id="subscription">
+							<label class="plan-label" for="subscription">
+								<div class="subscription-area">
+									<p class="subscription-fee">
+										<span class="previous-subscription-fee">₪139.00</span>
+										<span class="latest-subscription-fee">₪118.15</span>
+										<span class="subscription-fee-text">לכל משלוח ₪118.15</span>
+									</p>
+									<div class="select-plan-btn" id="subscription_btn">
+										<div class="select-plan-label" for="subscription"> רכישה במנוי מתחדש (15%הנחה)</div>
+								<span class="subscription-savings">15% הנחה</span>
+									</div>
+								</div>
+								<div class="select-wrapper">
+									<div class="select-arrow">
+										<svg width="15px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+											<path fill="#000"
+												d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+										</svg>
+									</div>
+									<select class="select-delivery-time" id="select_delivery_time">
+										<option value="1">משלוח כל חודש (15% הנחה)</option>
+										<option value="2">משלוח כל 2 חודשים (15% הנחה)</option>
+										<option value="3">משלוח כל 4 חודשים (15% הנחה)</option>
+										<option value="4">משלוח כל 5 חודשים (15% הנחה)</option>
+									</select>
+								</div>
+								<div class="subscription-offer">
+									<p class="subscription-offer-heading">היתרונות שתקבלו:</p>
+									<div class="subscription-offer-list">
+										<div class="subscription-offer-list-item">
+											<p class="offer-list-text">
+												לקוח/ה VIP עם עדיפות להזמנות
+											</p>
+										</div>
+										<div class="subscription-offer-list-item">
+											<p class="offer-list-text">
+												אפשרות לבטל או להשהות מנוי בכל רגע
+											</p>
+										</div>
+										<div class="subscription-offer-list-item">
+											<p class="offer-list-text">
+												מלאי שמור למנויים גם כשנגמר באתר
+											</p>
+										</div>
+										<div class="subscription-offer-list-item">
+											<p class="offer-list-text">הנחה קבועה ותקפה תמיד למנויים</p>
+										</div>
+									</div>
+								</div>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- link js start -->
+		<!-- link js end -->
+	</body>
+
+</html>
