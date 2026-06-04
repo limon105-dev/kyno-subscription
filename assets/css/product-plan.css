@@ -102,10 +102,14 @@
 .choose-single-product-purchase-img {
     padding: 0 20px;
     display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .choose-single-product-purchase-img img {
     width: 100%;
+    height: 100%;
 }
 
 p.purchase-pack-price-main {
@@ -381,6 +385,7 @@ input[type=radio]#one_time_purchase {
 
     .choose-single-product-purchase-img {
         padding: 0 16px;
+        height: 62px;
     }
 
     p.purchase-pack-price-main {
