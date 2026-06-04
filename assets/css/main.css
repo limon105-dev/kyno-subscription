@@ -2,10 +2,9 @@
     /* colors..... */
     --black: #000000;
     --white: #ffffff;
-    --text-meuted: rgba(60, 43, 77, 0.302);
-    --text-meuted2: rgba(60, 43, 77, 0.1);
-    --item-bg: #6e1ac2;
-    --brand-color: #3C2B4D;
+    --text-meuted: rgba(112, 1, 23, 0.3);
+    --text-meuted2: rgba(112, 1, 23, 0.1);
+    --brand-color: #700117;
 }
 
 /* common css start */

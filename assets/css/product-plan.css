@@ -1,6 +1,7 @@
 .section {
-    max-width: 535px;
+    max-width: 567px;
     margin: 0 auto;
+    padding: 100px 16px;
 }
 
 .choose-single-product-purchase-wrapper {
@@ -50,7 +51,7 @@
 }
 
 .choose-single-product-purchase-type-label {
-    padding: 20px 10px;
+    padding: 20px 10px 16px;
     border-radius: 12px;
     text-align: center;
     align-content: center;
@@ -63,7 +64,7 @@
     flex-direction: column;
     gap: 8px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .purchase-pack-ammunt {
@@ -76,11 +77,6 @@
     color: var(--black);
     font-size: 11px;
     font-weight: 700;
-    padding: 3px 10px;
-    background: var(--text-meuted);
-    width: fit-content;
-    margin: 0 auto;
-    border-radius: 50px;
 }
 
 .purchase-type-badge {
@@ -103,6 +99,10 @@
     text-wrap-mode: nowrap;
 }
 
+.choose-single-product-purchase-img {
+    padding: 0 20px;
+}
+
 .choose-single-product-purchase-img img {
     width: 100%;
 }
@@ -115,20 +115,10 @@ p.purchase-pack-price-main {
     text-transform: uppercase;
 }
 
-.purchase-type-badge2 {
-    position: absolute;
-    left: 50%;
-    top: 96%;
-    transform: translateX(-50%);
-    z-index: 2;
-}
-
-.purchase-type-badge2 .purchase-type-badge-text {
-    color: var(--white);
+.purchase-type-discount-badge {
+    color: var(--black);
     font-size: 12px;
-    padding: 5px 12px 6px;
-    background-color: var(--item-bg);
-    transition: all ease .3s;
+    font-weight: 500;
 }
 
 .choose-single-product-purchase-type input[type="radio"]:checked~.choose-single-product-purchase-type-label {
@@ -136,12 +126,8 @@ p.purchase-pack-price-main {
     box-shadow: 0px 0px 0px 2px var(--brand-color);
 }
 
-.choose-single-product-purchase-type input[type="radio"]:checked~.choose-single-product-purchase-type-label .purchase-type-badge2 .purchase-type-badge-text {
-    background-color: var(--brand-color);
-}
-
 .plan-container {
-    margin: 50px auto 0;
+    margin: 20px auto 0;
 }
 
 .product-plan-heading {
@@ -376,8 +362,31 @@ input[type=radio]#one_time_purchase {
 
 @media only screen and (max-width: 575px) {
     .choose-single-product-purchase-types {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        gap: 5px;
+    }
+
+    .choose-single-product-purchase-type-label {
+        padding: 16px 5px 12px;
+        border-radius: 5px;
+    }
+
+    .choose-single-product-purchase-type input[type="radio"]:checked~.choose-single-product-purchase-type-label {
+        box-shadow: 0px 0px 0px 1px var(--brand-color);
+    }
+
+    .purchase-pack-ammunt {
+        font-size: 14px;
+    }
+
+    .choose-single-product-purchase-img {
+        padding: 0 16px;
+    }
+
+    p.purchase-pack-price-main {
+        font-size: 16px;
+    }
+
+    .plan-container {
+        margin: 16px auto 0;
     }
 }
