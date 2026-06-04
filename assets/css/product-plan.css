@@ -101,6 +101,7 @@
 
 .choose-single-product-purchase-img {
     padding: 0 20px;
+    display: flex;
 }
 
 .choose-single-product-purchase-img img {
